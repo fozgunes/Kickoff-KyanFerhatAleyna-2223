@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/contact.css">
@@ -37,6 +37,50 @@
         </header>
         <main class="contact__main">
             <!--  -->
+            <div class="contact__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7124.433555643626!2d4.346947645347498!3d50.85213526284085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380e764e2db%3A0xb9f96eef954121f3!2sOdisee%20-%20Campus%20Brussel!5e0!3m2!1snl!2sbe!4v1674213437203!5m2!1snl!2sbe"
+                    width="600" height="450" allowfullscreen="" loading="lazy" title="mapsodisee"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form class="contact__contactformulierform">
+                <div class="contact__formnaamenemail">
+                    <p>
+                        <label for="naam">Name: *</label>
+                    </p>
+                    <p>
+                        <input type="text" id="naam">
+                    </p>
+                </div>
+                <p>
+                    <label for="email">Email: *</label>
+                </p>
+                <p>
+                    <input type="email" id="email">
+                </p>
+                <p>
+                    <label for="telefoon">GSM: *</label>
+                </p>
+                <p>
+                    <input type="number" id="telefoon">
+                </p>
+                <p>
+                    <label for="subject">Onderwerp *</label>
+                </p>
+                <p>
+                    <input type="text" id="subject">
+                </p>
+                <p>
+                    <label for="bericht">Boodschap: *</label>
+                </p>
+                <p>
+                    <textarea id="bericht" cols="40" rows="5" required></textarea>
+                </p>
+
+                <input type="submit" value="Submit">
+
+            </form>
         </main>
         <footer class="page__footer">
             <div class="page__sociallinks">
