@@ -1,0 +1,28 @@
+nav ul {
+    display: flex;
+    list-style: none;
+ 
+ }
+ 
+ nav a {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2em;
+    margin-left: 6em;
+    margin-top: 1em;
+    padding: 0.7em;
+    color: red;
+    
+ }
+nav
+{
+
+    background-color: blue;
+}
+nav li
+{
+    
+}
