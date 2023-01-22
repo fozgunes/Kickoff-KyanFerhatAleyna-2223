@@ -1,5 +1,9 @@
 /* general */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .page__wrapper {
     background-color: #fff;
     margin: 0 auto;
@@ -45,23 +49,35 @@
 
 }
 
+.page__nav a:hover{
+    color: #F1C111;
+}
+
 .page__nav a + a {
     margin-left: 6em;
 }
 
-.page__nav{
-    
+.page__nav .page__navlinks .page__navlinkcontact{
+    border: 2px solid #F1C111;
+    border-radius: 4rem;
+    color: #F1C111;
+}
+
+.page__nav .page__navlinks .page__navlinkcontact:hover{
+    background-color: #F1C111;
+    color: #FFF;
 }
 
 
-.page__nav  {
-
-}
 
 
 /* footer */
 
 .page__footer {
+    display: flex;  
+    flex-direction: row;
+    font-size: 1.2rem;
+    min-height: 10rem;
     /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
 
     margin: 0 -9999rem;
@@ -69,6 +85,44 @@
     padding: 0.25rem 9999rem;
     background: #171819;
 }
+
+.page__footer .page__sociallinks {
+    align-items: flex-start;
+}
+
+.page__footer .page__sociallinks ul{
+     display: flex;
+}
+
+.page__footer .page__sociallinks li{
+    list-style: none;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.page__footer .page__sociallinks li + li{
+    padding-left: 0.5rem;
+}
+
+.page__footer .page__sociallinks a{
+    list-style: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.page__footer .page__sociallinks a:hover{
+    color:#F1C111;
+}
+
+.page__footer .page__address{
+    margin-left: auto;
+}
+
+.page__footer .page__address p{
+    color: grey;
+    font-size: 1.5rem;
+}
+
+/* copyright */
 
 .page__copyright {
     /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
@@ -79,7 +133,6 @@
     background: #171819;
 }
 
-.page__copyright {
-    display: flex;
-
+.page__copyright p{
+    color: grey;
 }
