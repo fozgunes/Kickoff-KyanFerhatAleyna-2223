@@ -1,28 +1,85 @@
-nav ul {
+/* general */
+
+.page__wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 131rem;
+
+}
+
+/* logo */
+.page__logo{
+    display:flex;
+    align-items: flex-start;
+    background-color: #0C8195;
+
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background:#0C8195;
+}
+
+
+
+/* nav */
+.page__nav ul {
     display: flex;
     list-style: none;
- 
- }
- 
- nav a {
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background:#0C8195;
+    justify-content: space-between;
+}
+
+.page__nav a {
     display: block;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 1.7rem;
+    font-weight: 700;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-right: 2em;
-    margin-left: 6em;
     margin-top: 1em;
     padding: 0.7em;
-    color: red;
-    
- }
-nav
-{
+    color: #FFF;
 
-    background-color: blue;
 }
-nav li
-{
+
+.page__nav a + a {
+    margin-left: 6em;
+}
+
+.page__nav{
     
+}
+
+
+.page__nav  {
+
+}
+
+
+/* footer */
+
+.page__footer {
+    /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
+
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background: #171819;
+}
+
+.page__copyright {
+    /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
+
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background: #171819;
+}
+
+.page__copyright {
+    display: flex;
+
 }
