@@ -7,8 +7,12 @@ body {
 .page__wrapper {
     background-color: #fff;
     margin: 0 auto;
-    max-width: 131rem;
+    max-width: 111rem;
 
+}
+
+.page__header{
+    margin-bottom: 3rem;
 }
 
 /* logo */
@@ -34,6 +38,7 @@ body {
     padding: 0.25rem 9999rem;
     background:#0C8195;
     justify-content: space-between;
+    margin-bottom: 0.3rem;
 }
 
 .page__nav a {
@@ -51,6 +56,7 @@ body {
 
 .page__nav a:hover{
     color: #F1C111;
+    transition: 0.4s background;
 }
 
 .page__nav a + a {
@@ -66,6 +72,7 @@ body {
 .page__nav .page__navlinks .page__navlinkcontact:hover{
     background-color: #F1C111;
     color: #FFF;
+    transition: 0.4s background;
 }
 
 
@@ -131,6 +138,7 @@ body {
     /* add back negative margin value */
     padding: 0.25rem 9999rem;
     background: #171819;
+
 }
 
 .page__copyright p{
