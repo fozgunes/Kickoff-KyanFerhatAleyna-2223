@@ -179,6 +179,17 @@ body {
     background: #171819;
 }
 
+.page__footer h3{
+    text-transform: uppercase;
+    color: #909090;
+    padding-bottom: 1rem;
+}
+
+.page__footer i{
+    color:#F1C111;
+    padding-right: 0.3rem;
+}
+
 .page__footer .page__sociallinks {
     align-items: flex-start;
 }
@@ -329,3 +340,4 @@ body {
     }
 
 }
+
