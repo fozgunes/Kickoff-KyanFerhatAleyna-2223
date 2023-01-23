@@ -25,10 +25,10 @@ body {
 .page__logo {
   display: flex;
   align-items: flex-start;
-  margin: 0 -9999rem;
+  margin: 0 -30rem;
 
   /* add back negative margin value */
-  padding: 0.25rem 9999rem;
+  padding: 0.25rem 30rem;
   background: #0c8195;
 }
 
@@ -40,10 +40,10 @@ body {
 
 .page__nav {
   max-height: 10rem;
-  margin: 0 -9999rem;
+  margin: 0 -30rem;
 
   /* add back negative margin value */
-  padding: 0.25rem 9999rem;
+  padding: 0.25rem 30rem;
   background: #0c8195;
   justify-content: space-between;
   margin-bottom: 0.3rem;
@@ -174,10 +174,10 @@ body {
   min-height: 10rem;
 
   /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
-  margin: 0 -9999rem;
+  margin: 0 -30rem;
 
   /* add back negative margin value */
-  padding: 0.25rem 9999rem;
+  padding: 0.25rem 30rem;
   background: #171819;
 }
 
@@ -222,10 +222,10 @@ body {
 .page__copyright {
   /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
 
-  margin: 0 -9999rem;
+  margin: 0 -30rem;
 
   /* add back negative margin value */
-  padding: 0.25rem 9999rem;
+  padding: 0.25rem 30rem;
   background: #171819;
 }
 
@@ -254,10 +254,10 @@ body {
   .page__logo {
     display: flex;
     align-items: flex-start;
-    margin: 0 -9999rem;
+    margin: 0 -30rem;
 
     /* add back negative margin value */
-    padding: 0.25rem 9999rem;
+    padding: 0.25rem 30rem;
     background: #0c8195;
   }
 
@@ -281,10 +281,10 @@ body {
   .page__nav ul {
     display: flex;
     list-style: none;
-    margin: 0 -9999rem;
+    margin: 0 -30rem;
 
     /* add back negative margin value */
-    padding: 0.25rem 9999rem;
+    padding: 0.25rem 30rem;
     background: #0c8195;
     justify-content: space-between;
     margin-bottom: 0.3rem;
