@@ -1,12 +1,13 @@
+/* stylelint-disable selector-class-pattern */
 .wiezijnwij__main {
-    font-size: 1.3rem;
-    text-align: left;
-    letter-spacing: 1.5px;
-    line-height: 1.4;
-    word-spacing: 2px;
-    padding: 0.5rem 0rem;;
+  font-size: 1.3rem;
+  text-align: left;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  word-spacing: 2px;
+  padding: 0.5rem 0;
 }
 
 main div {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
