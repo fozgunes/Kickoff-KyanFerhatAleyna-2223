@@ -163,6 +163,10 @@ body {
     margin-left: 6em;
 }
 
+.page__nav .page__navlinks .active{
+    border-bottom: 3px solid #F1C111;
+}
+
 /* footer */
 
 .page__footer {
