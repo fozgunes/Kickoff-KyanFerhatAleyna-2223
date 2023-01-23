@@ -15,6 +15,11 @@ body {
     margin-bottom: 3rem;
 }
 
+::selection {
+    color: #FFF;
+    background: #F1C111;
+  }
+
 /* logo */
 .page__logo {
     display: flex;
