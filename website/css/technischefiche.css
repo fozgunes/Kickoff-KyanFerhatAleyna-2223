@@ -1,0 +1,61 @@
+.technisch__main {
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    padding: 0.5rem 0rem;;
+}
+
+main div {
+    margin-top: 2rem;
+}
+
+.technisch__kostentabel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin-top: 5rem;
+}
+.technisch__basispakket
+{
+    background-color: #057A8D;
+    border-radius: 5px;
+    padding: 5px;
+}
+.technisch__flypakket
+{
+    background-color: #F1C111;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.technisch__streamerpakket
+{
+    background-color: #057A8D;
+    border-radius: 5px;
+    padding: 5px;
+}
+.technisch__rest1
+{
+    background-color: #F1C111;
+    border-radius: 5px;
+    padding: 5px;
+}
+.technisch__rest2
+{
+    background-color: #057A8D;
+    border-radius: 5px;
+    padding: 5px;
+}
+.technisch__rest3
+{
+    background-color: #F1C111;
+    border-radius: 5px;
+    padding: 5px;
+}
+h4{
+    margin-top: 5rem;
+}
