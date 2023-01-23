@@ -1,0 +1,187 @@
+/* title */
+
+.products__main h1 {
+    color: #F1C111;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+/* General */
+
+.products__aanbod .products__aanbodtitle {
+    font-size: 1.8rem;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    padding: 0.5rem 0rem;
+}
+
+.products__aanbod {
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    word-spacing: 2px;
+}
+
+.products__aanbod h3 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+
+.products__bold {
+    font-weight: 800;
+    padding: 1rem 0rem;
+}
+
+
+/* Summary */
+.products__aanbod ul {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 191rem;
+}
+
+.products__aanbod li {
+    list-style: none;
+}
+
+.products__aanbod li p {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0.5rem 0rem;
+
+}
+
+.products__aanbod li p+p {
+    font-weight: 300;
+    text-transform: none;
+
+}
+
+
+/* Paragrafen */
+
+.products__werkkracht {
+    margin-top: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+/* streamers */
+.products__superstars {
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background: #F0F8FF;
+}
+
+.products__superstars p {
+    padding-top: 1rem;
+}
+
+.products__superstars p+p {
+    padding-bottom: 1rem;
+}
+
+.products__superstars figcaption {
+    display: none;
+}
+
+/* paragraaf publiek */
+
+.products__publiek {
+    margin-top: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.products__publiek p+p {
+    padding-top: 1rem;
+}
+
+/* Netwerk infrastructuur */
+
+.products__netwerkinfrastructuur {
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background: #F0F8FF;
+}
+
+.products__netwerkinfrastructuur p+p {
+    padding-top: 1rem;
+}
+
+.products__netwerkinfrastructuur figure {
+    size: 120%;
+    margin: 1rem 0rem;
+
+}
+
+.products__netwerkinfrastructuur figcaption {
+    display: none;
+
+}
+
+/* technische fiche */
+
+.products__technisch {
+    margin-top: 1rem;
+    padding: 1rem 0rem 4rem 0rem;
+    border: 1px solid black;
+}
+
+.products__technisch p {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.products__technisch a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem 4rem;
+    background-color: #057A8D;
+    color: #F0F8FF;
+}
+
+.products__technisch a:hover {
+    background-color: #F1C111;
+    transition: 0.4s background;
+}
+
+/* Conclusie */
+
+.products__conclusie {
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background: #F0F8FF;
+}
+
+.products__conclusie h2 {
+    color: #F1C111;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 1rem 0rem;
+}
+
+.products__conclusie p+p {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
