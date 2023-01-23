@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 .page__wrapper {
@@ -18,7 +19,7 @@ body {
 ::selection {
     color: #FFF;
     background: #F1C111;
-  }
+}
 
 /* logo */
 .page__logo {
@@ -168,7 +169,7 @@ body {
     margin-left: 6em;
 }
 
-.page__nav .page__navlinks .active{
+.page__nav .page__navlinks .active {
     border-bottom: 3px solid #F1C111;
 }
 
@@ -188,14 +189,14 @@ body {
     background: #171819;
 }
 
-.page__footer h3{
+.page__footer h3 {
     text-transform: uppercase;
     color: #909090;
     padding-bottom: 1rem;
 }
 
-.page__footer i{
-    color:#F1C111;
+.page__footer i {
+    color: #F1C111;
     padding-right: 0.3rem;
 }
 
@@ -289,7 +290,7 @@ body {
     /* nav */
     .page__nav {
         padding-bottom: 1rem;
-        
+
     }
 
     .page__nav ul {
@@ -301,10 +302,10 @@ body {
         background: #0C8195;
         justify-content: space-between;
         margin-bottom: 0.3rem;
-        
+
     }
 
-    .page__nav .page__navlinks{
+    .page__nav .page__navlinks {
         display: flex;
         transform: translateX(0);
         box-shadow: none;
@@ -349,4 +350,3 @@ body {
     }
 
 }
-

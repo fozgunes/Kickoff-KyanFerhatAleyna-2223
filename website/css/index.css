@@ -41,11 +41,11 @@
 }
 
 .home__maintext .home__btnToWieZijnWij a {
+    font-size: 1.8rem;
     background-color: #057A8D;
     text-decoration: none;
     color: #fff;
-    padding: 1rem 3rem;
-    border-radius: 1rem;
+    padding: 1.5rem 4.5rem;
     margin: 2rem 0rem 2rem auto;
 }
 
