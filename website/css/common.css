@@ -87,7 +87,7 @@ body {
 
 .page__header input[type="checkbox"]:checked~.page__nav .page__navlinks {
     transform: translateX(0);
-    padding-top: 120px;
+    padding-top: 10rem;
     min-height: 10vh;
     margin-left: 0.3rem;
 
