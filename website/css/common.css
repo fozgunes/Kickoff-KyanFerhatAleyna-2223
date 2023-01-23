@@ -7,41 +7,138 @@ body {
 .page__wrapper {
     background-color: #fff;
     margin: 0 auto;
-    max-width: 111rem;
+    max-width: 35rem;
 
 }
 
-.page__header{
+.page__header {
     margin-bottom: 3rem;
 }
 
 /* logo */
-.page__logo{
-    display:flex;
+.page__logo {
+    display: flex;
     align-items: flex-start;
-    background-color: #0C8195;
-
     margin: 0 -9999rem;
     /* add back negative margin value */
     padding: 0.25rem 9999rem;
-    background:#0C8195;
+    background: #0C8195;
 }
 
-.bold{
+
+
+.bold {
     font-weight: 800;
 }
 
+/* hambuger https://alvarotrigo.com/blog/hamburger-menu-css/ 2.*/
 
-/* nav */
-.page__nav ul {
+.page__header .checkbox {
+    position: absolute;
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+    top: 10rem;
+    left: 18rem;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.page__header .page__nav .hamburger-lines {
+    display: block;
+    height: 2.6rem;
+    width: 3.2rem;
+    position: absolute;
+    top: 10rem;
+    left: 18rem;
+    z-index: 2;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page__header .page__nav .hamburger-lines .line {
+    display: block;
+    height: 0.4rem;
+    width: 100%;
+    border-radius: 1rem;
+    background: #0e2431;
+}
+
+.page__header .page__nav .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.page__header .page__nav .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.page__header .page__nav .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.page__header input[type="checkbox"]:checked~.page__nav {
+    max-height: 90rem;
+
+}
+
+.page__header input[type="checkbox"]:checked~.page__nav .page__navlinks {
+    transform: translateX(0);
+    padding-top: 120px;
+    min-height: 10vh;
+    margin-left: 0.3rem;
+
+}
+
+.page__header input[type="checkbox"]:checked~.page__nav .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+.page__header input[type="checkbox"]:checked~.page__nav .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+
+.page__header input[type="checkbox"]:checked~.page__nav .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+
+.page__nav .page__navlinks {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -4rem;
+    padding-left: 3rem;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+
+}
+
+.page__nav .page__navlinks .page__navsinglelink {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     list-style: none;
+}
+
+
+/* nav hidden mobike */
+
+.page__nav {
+    max-height: 10rem;
     margin: 0 -9999rem;
     /* add back negative margin value */
     padding: 0.25rem 9999rem;
-    background:#0C8195;
+    background: #0C8195;
     justify-content: space-between;
     margin-bottom: 0.3rem;
+
+
 }
 
 .page__nav a {
@@ -57,35 +154,21 @@ body {
 
 }
 
-.page__nav a:hover{
+.page__nav a:hover {
     color: #F1C111;
     transition: 0.4s background;
 }
 
-.page__nav a + a {
+.page__nav a+a {
     margin-left: 6em;
 }
-
-.page__nav .page__navlinks .page__navlinkcontact{
-    border: 2px solid #F1C111;
-    border-radius: 4rem;
-    color: #F1C111;
-}
-
-.page__nav .page__navlinks .page__navlinkcontact:hover{
-    background-color: #F1C111;
-    color: #FFF;
-    transition: 0.4s background;
-}
-
-
-
 
 /* footer */
 
 .page__footer {
-    display: flex;  
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-size: 1.2rem;
     min-height: 10rem;
     /* syntax gekregen via https://css-tricks.com/full-browser-width-bars/  */
@@ -100,34 +183,34 @@ body {
     align-items: flex-start;
 }
 
-.page__footer .page__sociallinks ul{
-     display: flex;
+.page__footer .page__sociallinks ul {
+    display: flex;
 }
 
-.page__footer .page__sociallinks li{
+.page__footer .page__sociallinks li {
     list-style: none;
     padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
-.page__footer .page__sociallinks li + li{
+.page__footer .page__sociallinks li+li {
     padding-left: 0.5rem;
 }
 
-.page__footer .page__sociallinks a{
+.page__footer .page__sociallinks a {
     list-style: none;
     color: #FFF;
     text-decoration: none;
 }
 
-.page__footer .page__sociallinks a:hover{
-    color:#F1C111;
+.page__footer .page__sociallinks a:hover {
+    color: #F1C111;
 }
 
-.page__footer .page__address{
+/* .page__footer .page__address{
     margin-left: auto;
-}
+} */
 
-.page__footer .page__address p{
+.page__footer .page__address p {
     color: grey;
     font-size: 1.5rem;
 }
@@ -144,6 +227,105 @@ body {
 
 }
 
-.page__copyright p{
+.page__copyright p {
     color: grey;
+}
+
+.page__maps {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .page__wrapper {
+        background-color: #fff;
+        margin: 0 auto;
+        max-width: 101rem;
+
+    }
+
+    .page__logo {
+        display: flex;
+        align-items: flex-start;
+        background-color: #0C8195;
+
+        margin: 0 -9999rem;
+        /* add back negative margin value */
+        padding: 0.25rem 9999rem;
+        background: #0C8195;
+    }
+
+    .page__maps {
+        display: contents;
+    }
+
+    .page__header .page__nav .hamburger-lines {
+        display: none;
+    }
+
+    .page__header .checkbox {
+        display: none;
+    }
+
+    /* nav */
+    .page__nav {
+        padding-bottom: 1rem;
+        
+    }
+
+    .page__nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0 -9999rem;
+        /* add back negative margin value */
+        padding: 0.25rem 9999rem;
+        background: #0C8195;
+        justify-content: space-between;
+        margin-bottom: 0.3rem;
+        
+    }
+
+    .page__nav .page__navlinks{
+        display: flex;
+        transform: translateX(0);
+        box-shadow: none;
+        flex-direction: row;
+        padding: 0.7em;
+        color: #FFF;
+        margin-left: 0;
+    }
+
+    .page__nav a {
+        display: block;
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: capitalize;
+        margin-right: 2em;
+        margin-top: 1em;
+        padding: 0.7em;
+        color: #FFF;
+
+    }
+
+    .page__nav a:hover {
+        color: #F1C111;
+        transition: 0.4s background;
+    }
+
+    .page__nav a+a {
+        margin-left: 6em;
+    }
+
+    .page__nav .page__navlinks .page__navlinkcontact {
+        border: 2px solid #F1C111;
+        border-radius: 4rem;
+        color: #F1C111;
+    }
+
+    .page__nav .page__navlinks .page__navlinkcontact:hover {
+        background-color: #F1C111;
+        color: #FFF;
+        transition: 0.4s background;
+    }
+
 }
